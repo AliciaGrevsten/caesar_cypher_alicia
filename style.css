@@ -1,0 +1,15 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: darkcyan;
+}
+
+div {
+    margin: 30px;
+    box-sizing: border-box;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center, space-around;
+}
