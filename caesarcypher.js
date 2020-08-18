@@ -3,7 +3,7 @@ const cypher = document.getElementById('cypher');
 cypher.addEventListener('click', (e) => {
     e.preventDefault();
     let input = document.getElementById('userInput').value;
-    let shift = document.getElementById('shifts').value;
+    let shift = document.getElementById('shift').value;
     let output = caesarShift(input, shift);
     document.getElementById("output").innerHTML = output;
 }); 
@@ -13,7 +13,7 @@ const decypher = document.getElementById('decypher');
 decypher.addEventListener('click', (e) => {
     e.preventDefault();
     let input = document.getElementById('userInput').value;
-    let shift = document.getElementById('shifts').value;
+    let shift = document.getElementById('shift').value;
     let output = caesarShift(input, -(shift));
     document.getElementById("output").innerHTML = output;
 }); 
